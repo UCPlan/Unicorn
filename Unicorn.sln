@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2041
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 src", "02 src", "{2F8B1DB1-A8E2-4826-9C24-A746F9FD8216}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{A4D73DFF-D26D-4FC0-A8C8-C18985E2BF19}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 test", "03 test", "{7499B31A-ED69-44AD-B812-79F751A3794E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unicorn.Test.WebApi", "test\Unicorn.Test.WebApi\Unicorn.Test.WebApi.csproj", "{83718747-215A-43C2-8A1F-8BCCF99E3F92}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 Solution Items", "01 Solution Items", "{0E5188B3-B032-4958-BC59-916389AA3E2D}"
+	ProjectSection(SolutionItems) = preProject
+		Jenkinsfile = Jenkinsfile
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unicorn.AspNetCore", "src\Infrastructure\Unicorn.AspNetCore\Unicorn.AspNetCore.csproj", "{DEB4C18B-32F7-46B1-9EC5-BFE1C0CF40E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83718747-215A-43C2-8A1F-8BCCF99E3F92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83718747-215A-43C2-8A1F-8BCCF99E3F92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83718747-215A-43C2-8A1F-8BCCF99E3F92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83718747-215A-43C2-8A1F-8BCCF99E3F92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEB4C18B-32F7-46B1-9EC5-BFE1C0CF40E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEB4C18B-32F7-46B1-9EC5-BFE1C0CF40E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEB4C18B-32F7-46B1-9EC5-BFE1C0CF40E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEB4C18B-32F7-46B1-9EC5-BFE1C0CF40E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A4D73DFF-D26D-4FC0-A8C8-C18985E2BF19} = {2F8B1DB1-A8E2-4826-9C24-A746F9FD8216}
+		{83718747-215A-43C2-8A1F-8BCCF99E3F92} = {7499B31A-ED69-44AD-B812-79F751A3794E}
+		{DEB4C18B-32F7-46B1-9EC5-BFE1C0CF40E6} = {A4D73DFF-D26D-4FC0-A8C8-C18985E2BF19}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D79E1A68-99EA-489A-A45D-36B4C41BC60C}
+	EndGlobalSection
+EndGlobal
