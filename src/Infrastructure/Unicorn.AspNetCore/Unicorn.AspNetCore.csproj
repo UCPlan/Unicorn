@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>netcoreapp5.0</TargetFramework>
     <Authors>Zhiqiang Li (stulzq)</Authors>
     <Description>Processing client real IP address Middleware.</Description>
     <PackageLicenseUrl>https://github.com/UCPlan/Unicorn/blob/master/LICENSE</PackageLicenseUrl>
@@ -9,11 +9,11 @@
     <RepositoryUrl>https://github.com/UCPlan/Unicorn.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>RealIp,AspNetCore,Middleware</PackageTags>
-    <Version>1.0.1</Version>
+    <Version>1.1.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="3.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="5.0.0" />
   </ItemGroup>
 
   <ItemGroup>
